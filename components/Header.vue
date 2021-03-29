@@ -3,7 +3,7 @@
     <v-navigation-drawer app v-model="drawer" temporary>
       <v-list nav dense>
         <v-list-item-group active-class="deep-purple--text text--accent-4">
-          <v-list-item disabled>
+          <v-list-item to="/">
             <v-list-item-content>
               <v-list-item-title class="title">
                 MovieDB
